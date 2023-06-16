@@ -62,6 +62,7 @@ button {
   height: 55px;
   font-family: roman;
   padding: 18px;
+  margin-left: -240px;
 }
 
 main {
