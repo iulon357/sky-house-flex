@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Helvetica Neue Lights";
-    src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
-  }
-  
-  @font-face {
-    font-family: "Helvetica Neue Roman";
-    src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
-  }
+  font-family: "Helvetica Neue Lights";
+  src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
+}
+
+@font-face {
+  font-family: "Helvetica Neue Roman";
+  src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
+}
 
 /* * {
     margin: 0;
@@ -15,5 +15,45 @@
 } */
 
 header {
-  background-color: #0A22F4;
+  background-color: #0a22f4;
+  display: flex;
+  justify-content: space-around;
+  height: 91px;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 42px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+}
+
+.button {
+  background-color: #ffffff;
+  width: 160px;
+height: 55px;
+
+}
+
+ul .button li a {
+  color: #171717;
+}
+
+.box-img {
+  background-color: #F9F9F9;
+  width: 70px;
+height: 70px;
+}
+
+.box-text {
+  width: 463px;
+height: 79px;
 }
