@@ -1,6 +1,6 @@
 @font-face {
   font-family: "lights";
-  src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
+  src: url(../fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
 }
 
 @font-face {
@@ -28,6 +28,10 @@ header {
 .navbar-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.home {
+  border-bottom: 1px solid #ffffff;
 }
 
 nav {
