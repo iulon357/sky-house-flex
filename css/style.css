@@ -1,4 +1,12 @@
-
+@font-face {
+    font-family: "Helvetica Neue Lights";
+    src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
+  }
+  
+  @font-face {
+    font-family: "Helvetica Neue Roman";
+    src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
+  }
 
 /* * {
     margin: 0;
